@@ -1,10 +1,10 @@
 require 'pry'
 
 class Dog 
-  def initialize(name, breed)
-    @name = name
-    @breed = breed 
-  end 
+  # def initialize(name, breed)
+  #   @name = name
+  #   @breed = breed 
+  # end 
   
   def name
     @name 
@@ -22,7 +22,7 @@ class Dog
 
 end
 
-Rover = Dog.new("Rover", "mutt")
- Rover.name = "bear"
-puts Rover.name
-binding.pry
+# Rover = Dog.new("Rover", "mutt")
+# Rover.name = "bear"
+# puts Rover.name
+# binding.pry
